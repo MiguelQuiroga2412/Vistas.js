@@ -1,0 +1,142 @@
+{
+    "user": [
+    {
+        "id": 1,
+        "tipodoc":"Cédula Ciudadanía",
+        "numdoc":"1234567890",
+        "nombre":"Mario Alberto",
+        "apellido":"Yepes Caicedo",
+        "fnacimiento": "1982-06-25",
+        "email": "marioyepes@gmail.com",
+        "password":"qwerty"
+    },
+    {
+        "id": 2,
+        "tipodoc":"Pasaporte",
+        "numdoc":"198765432",
+        "nombre":"Laura María",
+        "apellido":"Esguerra Cortés",
+        "fnacimiento": "1987-03-15",
+        "email": "lauraesguerra@gmail.com",
+        "password":"123456"
+    }
+    ],
+    "tienda":[
+        {
+            "id":101,
+            "nombreTienda":"Suite Deluxe",
+            "direccionTienda":"carrera95#127c-36",
+            "numeroTelTienda":3193104050,
+            "sitioWebTienda":"tiendaco.manchas.com",
+            "horarioOperaciónTienda":{
+                "lunes": "9:00 AM - 6:00 PM",
+                "martes": "9:00 AM - 6:00 PM",
+                "miercoles": "9:00 AM - 6:00 PM",
+                "jueves": "9:00 AM - 6:00 PM",
+                "viernes": "9:00 AM - 6:00 PM",
+                "sabado": "10:00 AM - 4:00 PM",
+                "domingo": "Cerrado"
+              },
+            "categoríaProductosTienda":"cepillos",
+            "redesSocialesTienda":"tiendaco.manchas.com FB",
+            "serviciosAdicionalesTienda":"baño privado a domicilio"
+
+        },
+        {
+            "id": 103,
+            "nombreTienda": "MascotasFelices",
+            "direccionTienda": "789 Calle Imaginaria",
+            "numeroTelTienda": 1234567890,
+            "sitioWebTienda": "mascotasfelices.manchas.com",
+            "horarioOperaciónTienda": {
+              "lunes": "10:00 AM - 6:00 PM",
+              "martes": "10:00 AM - 6:00 PM",
+              "miercoles": "10:00 AM - 6:00 PM",
+              "jueves": "10:00 AM - 6:00 PM",
+              "viernes": "10:00 AM - 6:00 PM",
+              "sabado": "9:00 AM - 3:00 PM",
+              "domingo": "Cerrado"
+            },
+            "categoríaProductosTienda": "accesorios para mascotas",
+            "redesSocialesTienda": "mascotasfelices.manchas.com FB",
+            "serviciosAdicionalesTienda": "Grooming y cuidado de mascotas"
+          }
+        ],
+
+        
+            "productosMascotas": [
+              {
+                "id": 1,
+                "nombre": "Croquetas para perros",
+                "tipo": "Comida",
+                "marca": "NutriCan",
+                "precio": 25000,
+                "cantidadDisponible": 100,
+                "descripcion": "Comida balanceada para perros de todas las edades.",
+                "imagen": "imagen1.jpg"
+              },
+              {
+                "id": 2,
+                "nombre": "Arena para gatos",
+                "tipo": "Arena",
+                "marca": "KittyClean",
+                "precio": 8000,
+                "cantidadDisponible": 50,
+                "descripcion": "Arena aglomerante para gatos, sin polvo y fácil de limpiar.",
+                "imagen": "imagen2.jpg"
+              },
+              {
+                "id": 3,
+                "nombre": "Juguete interactivo para perros",
+                "tipo": "Juguete",
+                "marca": "PetPlay",
+                "precio": 12000,
+                "cantidadDisponible": 75,
+                "descripcion": "Juguete duradero para mantener a tu perro activo y entretenido.",
+                "imagen": "imagen3.jpg"
+              },
+              {
+                "id": 4,
+                "nombre": "Comedero automático para gatos",
+                "tipo": "Comedero",
+                "marca": "FeederMatic",
+                "precio": 29000,
+                "cantidadDisponible": 30,
+                "descripcion": "Comedero programable para gatos, ideal para cuando no estás en casa.",
+                "imagen": "imagen4.jpg"
+              },
+              {
+                "id": 5,
+                "nombre": "Croquetas para perros",
+                "tipo": "Comida",
+                "marca": "animalcan",
+                "precio": 26000,
+                "cantidadDisponible": 110,
+                "descripcion": "Comida grasosa",
+                "imagen": "imagen5.jpg"
+              }
+              
+            ],
+                "compras": [
+                  {
+                    "id": 1,
+                    "fecha": "2023-10-30",
+                    "productosMascotas ": [1, 2, 3], 
+                    "total": 75.99,
+                    "usuarioId": 1 
+                  },
+                  {
+                    "id": 2,
+                    "fecha": "2023-10-29",
+                    "productosMascotas ": [2, 4],
+                    "total": 45.50,
+                    "usuarioId": 2
+                  }
+                  
+                ]
+              
+
+            
+          
+        
+}
